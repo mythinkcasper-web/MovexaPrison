@@ -1,0 +1,14 @@
+name: MovexaPrison
+version: 1.0.0
+main: com.movexa.prison.PrisonPlugin
+api-version: 1.21.5
+description: A prison management plugin for Minecraft.
+author: YourName
+depend: [Vault]
+commands:
+  prison:
+    description: Main command for prison management.
+    usage: /<command> <subcommand>
+  jail:
+    description: Command to jail a player.
+    usage: /<command> <player>

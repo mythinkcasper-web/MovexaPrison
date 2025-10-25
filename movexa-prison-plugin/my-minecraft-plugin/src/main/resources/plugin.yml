@@ -1,0 +1,15 @@
+name: MyMinecraftPlugin
+version: 1.0
+main: com.example.ExamplePlugin
+api-version: 1.13
+description: A simple Minecraft plugin example.
+authors:
+  - YourName
+commands:
+  examplecommand:
+    description: An example command for the plugin
+    usage: /<command>
+permissions:
+  exampleplugin.use:
+    description: Allows the use of the example command
+    default: op
